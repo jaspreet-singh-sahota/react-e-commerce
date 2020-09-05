@@ -6,7 +6,7 @@ import HomePage from './pages/homepage/homepage';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/shop' component={ShopPage} />
